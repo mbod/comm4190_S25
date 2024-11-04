@@ -1,6 +1,6 @@
 
 
-# "Talking with AI" - Computational and Communication Approaches
+# COMM5190 "Talking with AI" - Computational and Communication Approaches
 
 
 ## Spring 2025
@@ -18,8 +18,8 @@
             appointments outside these times if you email with sufficient
             notice.
 
-
 ---
+
 
 
 # Course Description Goals and Objectives
@@ -277,8 +277,9 @@ Work?*. Blog post February 14, 2023
     Better Chain-of-Thought Prompting Strategies: A Survey.” arXiv,
     October 7, 2023. <https://doi.org/10.48550/arXiv.2310.04959>.
 
-\#+BEGIN<sub>COMMENT</sub>   
 
+
+----------
 
 # Schedule
 
@@ -595,4 +596,6 @@ READINGS:
 
 
 ### ASSIGNMENTS DUE - TBA
+
+
 
