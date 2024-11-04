@@ -18,47 +18,6 @@
             appointments outside these times if you email with sufficient
             notice.
 
-\#+BEGIN<sub>COMMENT</sub>
-
----
-
-
-# IMPORTANT NOTICES
-
-
-## 1. HEALTH AND WELLNESS
-
--   Covid-19 and other respiratory viruses are continuing to evolve and
-    infection and hospitalization rates continue to show depressing
-    cycles of surge and fall, at both a local and national level&#x2013;long
-    beyond what was hoped almost four years ago.
-
--   To reduce the risk of infection and increase the possibility of
-    wellness allowing us to focus on learning and working together,
-    please be monitor your health and be mindful of others around
-    you. You are always welcome to wear a mask in class for whatever
-    reason and the professor will frequently do so.
-
--   This is a request for us to think socially about how our choices
-    impact others and how we can maximize learning opportunities.
-    **Please respect each other's choices on this issue**.
-
-
-## 2. ATTENDANCE, ZOOM AND CLASS RECORDINGS
-
--   **ZOOM AND CLASS ATTENDANCE WHEN UNWELL** - If you feel sick or are
-    showing symptoms of Covid-19, flu or cold then **PLEASE BE
-    CONSIDERATE** of your classmates and attend the class remotely
-    through Zoom. All class sessions will be available live through Zoom
-    (see links in Canvas) and as recordings.
-
--   Please make use of ****absence notices**** in `Path@Penn` to inform the
-    professor if you need to miss class due to extenuating
-    circumstances. Submitting an absence notice does not excuse students
-    from their course obligations. But you can view missed class session
-    in class recordings in Canvas.
-
-\#+END<sub>COMMENT</sub>
 
 ---
 
