@@ -14,5 +14,5 @@ Email: mbod@asc.upenn.edu
 
 ### Syllabus
 
-* [Link to draft syllabus (subject to change) for COMM4190](syllabus.md)
-* [Link to draft syllabus (subject to change) for COMM5190](syllabus_5190.md)
+* [Link to draft syllabus (subject to change) for COMM4190/5190](syllabus.md)
+
