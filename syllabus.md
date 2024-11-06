@@ -181,6 +181,11 @@ to develop a topic of interest in more detail.
 
 ## Textbooks
 
+Alammar, J. & Grootendorst, M. (2024) *Hands-On Large Language Models*.
+
+-   This book is references as `HOLLM` in the schedule below.
+-   It is available online through the library and the UPenn O'Reilly subscription
+
 Mitchell, M. (2019) *Artificial Intelligence: A Guide for Thinking Humans*.
 
 -   This book is referenced as `AITH` in the schedule below.
@@ -301,7 +306,149 @@ Work?*. Blog post February 14, 2023
     Better Chain-of-Thought Prompting Strategies: A Survey.” arXiv,
     October 7, 2023. <https://doi.org/10.48550/arXiv.2310.04959>.
 
-\#+BEGIN<sub>min</sub>-level
+
+# Schedule
+
+
+## **NOTE** This is a tentative schedule is will be updated as the course progresses
+
+
+## Class structure
+
+-   Usually each class session will be divided into two parts:
+
+-   **Content and Discussion** - This part of the class will introduce
+    and review the key topics outlined in the schedule. It is important
+    that you read the assigned material BEFORE the class as you'll be
+    expected to engage in discussion and other activities based on this
+    content.
+-   **Lab activities** - The second part will be focused on practical
+    exercises to put into practice what we have been learning about
+    thinking about, collecting, analyzing, interpreting and
+    communicating data. This will include learning some basic steps
+    using Python and R scripts and some other tools for data analysis
+    and visualization.
+
+
+## Week 1 - Introduction and Setup
+
+
+### Wednesday 15 January
+
+-   Introduction to and overview of the class
+-   Setup and testing of JupyterHub
+    -   ****IMPORTANT**** Make sure you have completed initial survey quiz in Canvas to get
+        your github userid setup on the class server.
+
+
+## Week 2 - Introduction and Setup
+
+READINGS:
+
+-   Wolfram 2023 Blog post *What is ChatGPT Doing*
+-   `GAI` Ch. 2
+
+
+### Monday 20 January ****NO CLASS MLK, Jr. Day****
+
+
+### Wednesday 22 January
+
+-   Understanding what LLMs are doing - next word prediction
+-   Some challenges for LLMs
+    -   spatial logic
+    -   theory of mind (ToM) scenarios
+-   Language as interaction and exchange
+    -   Turn types in conversation
+        -   Statements & Questions
+        -   Offers & Demands
+    -   Responses: Compliance vs Challenge
+-   Looking at GPT2
+    -   Word embeddings
+
+
+## Week 3 - Prompting and How LLMs work (Part 1)
+
+READINGS:
+
+-   `PEGAI` Ch. 1
+
+(<https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/ch01.html>)
+
+-   Wolfram 2023 Blog post *What is ChatGPT Doing*
+-   `GAI` Ch. 2
+
+
+### Monday 27 January
+
+-   Overview of Prompt Engineering
+-   Overview of how LLMs are built
+    1.  Pretraining
+        -   Self-supervised
+        -   Next word prediction
+    2.  Finetuning
+        -   Domain
+        -   Task
+        -   Instruction
+    3.  Reinforcement Learning
+        -   RLHF: Reinforcement Learning from Human Feedback
+-   How LLMs work (continued)
+    -   Embeddings
+
+
+### Wednesday 29 January
+
+-   Exercise: Using LLMs to create a branding for a product
+-   Tool: <https://chat.lmsys.org>
+    -   Comparing responses from multiple LLMs
+
+
+## Week 4 - Prompting and How LLMs work (Part 2)
+
+READINGS:
+
+-   `PEGAI` Ch. 2 (<https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/ch02.html>)
+
+
+### Monday 03 February
+
+-   Setting up blogging platform for Prompt/Response Logbook Assignment
+
+
+### Wednesday 05 February
+
+-   Watch this video: <https://www.youtube.com/watch?v=OFS90-FX6pg>
+
+-   How do LLMs work
+    -   Dealing with context
+    -   Transformer and self-attention
+-   How LLMs are trained
+    -   Stage 1: Pretraining
+
+-   Open vs Closed (Proprietary) models
+-   Running local LLMs
+
+
+## Week 5 - How LLMs are trained (Part 1) and does conversation with an LLM work?
+
+READINGS: 
+
+-   `PEGAI` Ch. 3 (<https://learning.oreilly.com/library/view/prompt-engineepring-for/9781098153427/ch03.html>)
+-   Christiansen & Chater (Ch. 1)
+-   Enfield (Ch. 1)
+
+
+### Monday 10 February
+
+-   Overview of LLM model landscape
+-   Using <span class="underline">Hugging Face</span>
+
+
+### Wednesday 12 February
+
+-   How does human-human conversation work?
+-   Is a ChatBot really engaging in conversation?
+-   Finetuning with Question-Answer data
 
 
 ## Week 6 - How LLMs are trained - Finetuning (Part 2)
@@ -310,6 +457,26 @@ READINGS:
 
 -   Christiansen & Chater (Ch. 2)
 -   Enfield (Ch. 2)
+
+
+### Monday 17 February
+
+-   How LLMs are trained
+    -   Stage 2: Fine Tuning
+        1.  Domain
+        2.  Task
+        3.  Instruction
+-   From next word prediction tool to chatbot
+
+
+### Wednesday 19 February
+
+-   Comparing a base model with a fine tuned model
+    -   Examples:
+        -   Gemma
+        -   Llama
+
+-   TOOL: Using Ollama to run local models
 
 
 ### Monday 17 February
@@ -348,7 +515,6 @@ READINGS:
 ### Wednesday 26 February
 
 -   Using DALL-E3, Imagen-3 and MidJourney
--   Using API for text-to-image and image-to-text
 
 
 ## Week 8 - Using LLMs for persuasive communication
@@ -366,9 +532,6 @@ READINGS:
 
 ### Wednesday 05 March
 
--   Prompt strategies for message development
--   Using LLMs to evaluate and test message effectiveness
-
 
 ## ****SPRING BREAK (March 8-16) - NO CLASSES****
 
@@ -379,7 +542,7 @@ READINGS:
 ### Wednesday 12 March ****NO CLASS****
 
 
-## Week 9 - Arguing with LLMs & LangChain (Part 1) and Gradio for building LLM applications
+## Week 9 - Arguing with LLMs & Langchain (Part 1) and Gradio for building LLM applications
 
 READINGS:
 
@@ -420,6 +583,12 @@ READINGS:
 
 
 ### Monday 24 March
+
+-   Retrieval Augmented Generation (RAG)
+-   RAG using \`langchain\`
+
+
+### Wednesday 26 March
 
 -   Integrating search and LLMs
     -   SearchGPT, Gemini, MS Co-pilot, meta.ai
@@ -502,5 +671,5 @@ READINGS:
 
 ### ASSIGNMENTS DUE - TBA
 
-\#+END<sub>min</sub>-level
+
 
