@@ -376,10 +376,41 @@ READINGS:
 (<https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/ch01.html>)
 
 -   Wolfram 2023 Blog post *What is ChatGPT Doing*
+-   Chapter 1 of *The Language Game* - Christiansen & Chater (Ch. 1)
 -   `GAI` Ch. 2
 
 
 ### Monday 27 January
+
+-   How LLMs work (Part 1)
+    -   High level view  of neural networks and deep learning
+    -   Input: Representation
+    -   Model (neural network): Transformations
+    -   Output: Probabilistic distribution over finite set of values (e.g. categories, vocabulary)
+-   Read: Wolfram article - Python examples using GPT2
+-   Word Embeddings
+-   Language as contextual negotiation
+    -   *The Language Game* - learning and using language as charades
+
+
+### Wednesday 29 January
+
+-   Getting setup for blogging assignments
+    1.  setup SSH key for github.com on commjhub server
+    2.  fork blog repository
+    3.  understand and practice creating post and pushing to github and viewing on github pages
+
+
+## Week 4 - Prompting and How LLMs work (Part 2)
+
+READINGS:
+
+-   `PEGAI` Ch. 2 (<https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/ch02.html>)
+
+-   Watch this video: <https://www.youtube.com/watch?v=OFS90-FX6pg>
+
+
+### Monday 03 February
 
 -   Overview of Prompt Engineering
 -   Overview of how LLMs are built
@@ -395,29 +426,10 @@ READINGS:
 -   How LLMs work (continued)
     -   Embeddings
 
-
-### Wednesday 29 January
-
 -   Exercise: Using LLMs to create a branding for a product
--   Tool: <https://chat.lmsys.org>
-    -   Comparing responses from multiple LLMs
-
-
-## Week 4 - Prompting and How LLMs work (Part 2)
-
-READINGS:
-
--   `PEGAI` Ch. 2 (<https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/ch02.html>)
-
-
-### Monday 03 February
-
--   Setting up blogging platform for Prompt/Response Logbook Assignment
 
 
 ### Wednesday 05 February
-
--   Watch this video: <https://www.youtube.com/watch?v=OFS90-FX6pg>
 
 -   How do LLMs work
     -   Dealing with context
@@ -426,6 +438,9 @@ READINGS:
     -   Stage 1: Pretraining
 
 -   Open vs Closed (Proprietary) models
+-   Tool: <https://chat.lmsys.org>
+    -   Comparing responses from multiple LLMs
+
 -   Running local LLMs
 
 
@@ -434,7 +449,7 @@ READINGS:
 READINGS: 
 
 -   `PEGAI` Ch. 3 (<https://learning.oreilly.com/library/view/prompt-engineepring-for/9781098153427/ch03.html>)
--   Christiansen & Chater (Ch. 1)
+
 -   Enfield (Ch. 1)
 
 
@@ -457,26 +472,6 @@ READINGS:
 
 -   Christiansen & Chater (Ch. 2)
 -   Enfield (Ch. 2)
-
-
-### Monday 17 February
-
--   How LLMs are trained
-    -   Stage 2: Fine Tuning
-        1.  Domain
-        2.  Task
-        3.  Instruction
--   From next word prediction tool to chatbot
-
-
-### Wednesday 19 February
-
--   Comparing a base model with a fine tuned model
-    -   Examples:
-        -   Gemma
-        -   Llama
-
--   TOOL: Using Ollama to run local models
 
 
 ### Monday 17 February
@@ -567,13 +562,17 @@ READINGS:
 -   `AGI` Chapters 1-3
 
 
-### Monday 31 March
+### Monday 24 March
 
 -   Using RAG in \`langchain\`
 -   Web-based RAG
 
 
-### Wednesday 02 April
+### Wednesday 26 March
+
+-   Integrating search and LLMs
+    -   SearchGPT, Gemini, MS Co-pilot, meta.ai
+    -   Perplexity
 
 
 ## Week 11 - LLMs and Knowledge Seeking
@@ -582,23 +581,16 @@ READINGS:
   = `AGI` Chapter 4-5
 
 
-### Monday 24 March
+### Monday 31 March
 
 -   Retrieval Augmented Generation (RAG)
 -   RAG using \`langchain\`
 
 
-### Wednesday 26 March
+### Wednesday 02 April
 
--   Integrating search and LLMs
-    -   SearchGPT, Gemini, MS Co-pilot, meta.ai
-    -   Perplexity
 -   Retrieval Augmented Generation (RAG)
 -   RAG using \`langchain\`
-
-
-### Wednesday 26 March
-
 -   Embeddings and vector databases
 -   Large context prompts  vs chunking and RAG
 
@@ -670,6 +662,4 @@ READINGS:
 
 
 ### ASSIGNMENTS DUE - TBA
-
-
 
